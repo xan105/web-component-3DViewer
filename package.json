@@ -1,6 +1,6 @@
 {
   "name": "@xan105/3dviewer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Web-component to render 3D model in the browser.",
   "type": "module",
   "exports": "./lib/index.js",

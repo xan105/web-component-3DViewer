@@ -1,5 +1,5 @@
 {
-  "name": "@xan105/3DViewer",
+  "name": "@xan105/3dviewer",
   "version": "0.1.0",
   "description": "Web-component to render 3D model in the browser.",
   "type": "module",

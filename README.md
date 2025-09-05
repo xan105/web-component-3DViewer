@@ -7,7 +7,7 @@ Currently supports: `STL` files. I might add more later on.
 
 📦 Scoped `@xan105` packages are for my own personal use but feel free to use them.
 
-[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg?style=flat-square)](https://www.webcomponents.org/element/@xan105/3DViewer)
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg?style=flat-square)](https://www.webcomponents.org/element/@xan105/3dviewer)
 
 Example
 =======
@@ -21,7 +21,7 @@ HTML:
 Import and define the Web-component:
 
 ```js
-import { STLViewer } from "@xan105/3DViewer"
+import { STLViewer } from "@xan105/3dviewer"
 customElements.define("stl-viewer", STLViewer);
 ```
 
@@ -29,7 +29,7 @@ Conditional Import
 
 ```js
 if (document.querySelector("stl-viewer")) {
-  await import("@xan105/3DViewer");
+  await import("@xan105/3dviewer");
   customElements.define("stl-viewer", STLViewer);
   await customElements.whenDefined("stl-viewer")
 }
@@ -39,7 +39,7 @@ Install
 =======
 
 ```
-npm i @xan105/3DViewer
+npm i @xan105/3dviewer
 ```
 
 💡 The bundled library and its minified version can be found in the `./dist` folder.
@@ -52,12 +52,12 @@ npm i @xan105/3DViewer
     <script type="importmap">
     {
       "imports": {
-        "@xan105/3DViewer": "./path/to/node_modules/@xan105/3DViewer/dist/3DViewer.min.js"
+        "@xan105/3dviewer": "./path/to/node_modules/@xan105/3dviewer/dist/3DViewer.min.js"
       }
     }
     </script>
     <script type="module">
-      import { STLViewer } from "@xan105/3DViewer"
+      import { STLViewer } from "@xan105/3dviewer"
       customElements.define("stl-viewer", STLViewer);
     </script>
     </body>
@@ -82,7 +82,7 @@ API
 This is a Web-component as such you need to define it:
 
 ```js
-import { STLViewer } from "/path/to/3DViewer.js"
+import { STLViewer } from "/path/to/3dviewer.js"
 customElements.define("stl-viewer", STLViewer);
 ```
 

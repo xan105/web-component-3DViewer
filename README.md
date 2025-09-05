@@ -5,6 +5,11 @@ Web-component to render 3D model in the browser.
 
 Currently supports: `STL` files. I might add more later on.
 
+<p align="center">
+  <img src="https://github.com/xan105/web-component-3DViewer/raw/main/screenshot/benchy.png">
+  <em>3DBenchy</em>
+</p>
+
 📦 Scoped `@xan105` packages are for my own personal use but feel free to use them.
 
 [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg?style=flat-square)](https://www.webcomponents.org/element/@xan105/3dviewer)

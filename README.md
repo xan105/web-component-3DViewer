@@ -34,7 +34,7 @@ Conditional Import
 
 ```js
 if (document.querySelector("stl-viewer")) {
-  await import("@xan105/3dviewer");
+  const { STLViewer } = await import("@xan105/3dviewer");
   customElements.define("stl-viewer", STLViewer);
   await customElements.whenDefined("stl-viewer")
 }
